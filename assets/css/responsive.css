@@ -1,0 +1,344 @@
+/* ===========================
+   RESPONSIVE DESIGN
+   Mobile-First Approach
+   =========================== */
+
+/* Large Tablets & Small Desktops */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title h2 {
+        font-size: 2.25rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+    .hero-slide {
+        padding: 4rem 0 2rem;
+        min-height: auto;
+    }
+
+    .min-vh-90 {
+        min-height: auto;
+    }
+
+    .hero-product-img {
+        max-height: 300px;
+        margin-top: 2rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.125rem;
+    }
+
+    .section {
+        padding: 3rem 0;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .counter {
+        font-size: 2.5rem;
+    }
+
+    .hero-image {
+        margin-top: var(--spacing-md);
+    }
+
+    .navbar-collapse {
+        background: var(--white);
+        padding: 1rem;
+        border-radius: var(--radius-md);
+        margin-top: 1rem;
+        box-shadow: var(--shadow-lg);
+    }
+
+    .nav-link {
+        margin: 0.25rem 0;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .top-bar {
+        font-size: 0.75rem;
+        padding: 0.5rem 0;
+    }
+
+    .top-info span {
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+
+    .top-info span.ms-3 {
+        margin-left: 0 !important;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+        margin-top: 0.5rem;
+    }
+
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 0.875rem;
+    }
+
+    .hero-slide {
+        padding: 3rem 0 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section {
+        padding: 2rem 0;
+    }
+
+    .section-title {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .section-title h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1.125rem;
+    }
+
+    .card-modern {
+        padding: var(--spacing-sm);
+    }
+
+    .card-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.75rem;
+    }
+
+    .counter {
+        font-size: 2rem;
+    }
+
+    .footer-main {
+        padding: 2rem 0 1rem;
+    }
+
+    .footer-title {
+        margin-top: var(--spacing-sm);
+        font-size: 1.125rem;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-bottom-links {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .scroll-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+    .top-bar {
+        text-align: center;
+    }
+
+    .top-info {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9375rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-title p {
+        font-size: 0.9375rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9375rem;
+    }
+
+    .btn-lg {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+    }
+
+    .card-modern h3 {
+        font-size: 1.25rem;
+    }
+
+    .card-modern p {
+        font-size: 0.9375rem;
+    }
+
+    .counter {
+        font-size: 1.75rem;
+    }
+
+    .stat-card {
+        padding: var(--spacing-sm);
+    }
+}
+
+/* Landscape Orientation */
+@media (max-width: 991px) and (orientation: landscape) {
+    .hero-slide {
+        min-height: auto;
+        padding: 3rem 0 2rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+
+    .top-bar,
+    .navbar,
+    .hero-buttons,
+    .scroll-top,
+    .footer {
+        display: none;
+    }
+
+    .hero-slide {
+        background: white;
+        color: black;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .logo {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+    /* Add dark mode styles if needed */
+}
